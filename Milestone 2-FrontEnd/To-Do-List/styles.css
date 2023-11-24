@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Login Page Styles */
+  .login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="password"],
+  .login-container button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  .login-container button {
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-container button:hover {
+    background-color: #555;
+  }
+  
+  /* Task List Page Styles */
+  .task-list-container {
+    width: 600px;
+    margin: 50px auto;
+  }
+  
+  .task-list-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-list-container li {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  .top-navigation {
+    background-color: #333; /* Background color for the navigation bar */
+    color: #fff; /* Text color */
+    padding: 10px 0; /* Add padding to the top and bottom of the navigation */
+}
+
+.top-navigation ul {
+    list-style: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center-align the navigation items */
+}
+
+.top-navigation ul li {
+    display: inline; /* Display list items horizontally */
+}
+
+.top-navigation ul li a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underlines from links */
+    padding: 10px 20px; /* Add padding to the links */
+}
+
+.top-navigation ul li a:hover {
+    background-color: #555; /* Background color on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+  
